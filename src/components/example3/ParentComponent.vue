@@ -1,4 +1,4 @@
-  <!-- ParentComponent.vue -->
+<!-- ParentComponent.vue -->
 <template>
   <div>
     <ChildComponent
@@ -10,23 +10,15 @@
   </div>
 </template>
 
-<script>
-import ChildComponent from './ChildComponent.vue';
+<script setup>
+import ChildComponent from './ChildComponent.vue'
+import { ref } from 'vue'
 
-export default {
-  name: "E05ParentComponent",
-  data() {
-    return {
-      parentMessage: 'Hello from parent'
-    };
-  },
-  methods: {
-    handleEvent(payload) {
-      console.log(payload);
-    }
-  },
-  components: {
-    ChildComponent
-  }
-};
+// 반응형 상태 정의
+const parentMessage = ref('Hello from parent')
+
+// 이벤트 핸들러 정의
+const handleEvent = (payload) => {
+  console.log(payload)
+}
 </script>
