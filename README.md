@@ -42,6 +42,8 @@
 3️⃣ methods → 일반 함수로 변경
 4️⃣ components 등록 제거
 5️⃣ this 제거
+<img width="1900" height="1018" alt="image" src="https://github.com/user-attachments/assets/b42efb0f-f872-4e04-b77c-f87ff8918ae5" />
+
 
 #Ex4)ChildComponent1.vue
 1️⃣ 컴포넌트 정의 방식 변경
@@ -61,6 +63,8 @@
 2️⃣ provide 옵션 → Composition API 함수로 변경
 3️⃣ components 등록 제거
 4️⃣ this 제거
+<img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/7c882308-e3ff-43a6-a470-04a7f3288252" />
+
 
 #Ex5)E-07-Options-API.vue
 1️⃣ 컴포넌트 정의 방식 변경
@@ -71,7 +75,8 @@
 6️⃣ props 정의 방식 변경
 7️⃣ Lifecycle Hooks 변경
 8️⃣ this 제거
-![Uploading image.png…]()
+
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/47bb7100-5007-426e-ab85-46b3af938a06" />
 
 
 ---
